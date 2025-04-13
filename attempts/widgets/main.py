@@ -53,4 +53,26 @@ checkbutton=Checkbutton(text="check",variable=check_state,command=checkbutton_se
 checkbutton.grid(row=6,column=2)
 
 
+
+#radiobutton
+def radio_selected():
+    print(radio_state.get())
+radio_state=IntVar()
+radiobutton_1=Radiobutton(text="1.option",value="10",variable=radio_state,command=radio_selected)
+radiobutton_2=Radiobutton(text="2.option",value="20",variable=radio_state,command=radio_selected)
+
+radiobutton_1.grid(row=7,column=2)
+radiobutton_2.grid(row=8,column=2)
+
+
+#listbox
+def list_box_selected(event):
+    print(list_box.get(list_box.curselection()))
+list_box=Listbox()
+name_list=["sarper","ali","berkin","isaac","sundip"]
+for i in range(len(name_list)):
+    list_box.insert(i,name_list[i])
+list_box.grid(row=9,column=2)
+list_box.bind('<<ListboxSelect>>',list_box_selected)
+
 window.mainloop()
