@@ -23,6 +23,32 @@ my_new_data_frame = pd.DataFrame(my_new_dict)
 
 
 #filling data
-q=my_new_data_frame.fillna(20)
+# q=my_new_data_frame.fillna(20)
 
-print(q)
+# print(q)
+
+
+
+
+
+#groupby
+
+salary_dict = {"Programming Language" : ["Python" , "Python" ,"Python" ,"Java","Java" ,"Swift"], "Name" : ["A","B","C","D","E","F"],"Salary":[100,90,80,70,60,50]}
+
+salary_frame = pd.DataFrame(salary_dict)
+
+group_object = salary_frame.groupby("Programming Language")
+
+# print(group_object.count())
+
+# print(group_object.min("Salary")) #or
+
+# print(group_object.min(numeric_only=True))
+
+
+print(group_object.describe())
+
+
+
+
+# print(salary_frame)
