@@ -102,7 +102,7 @@ r=(my_data_frame.set_index("NewIndex"))
 
 my_data_frame.drop("NewIndex",axis=1,inplace=True)
 
-print(my_data_frame)
+# print(my_data_frame)
 
 
 
