@@ -45,10 +45,13 @@ group_object = salary_frame.groupby("Programming Language")
 
 # print(group_object.min(numeric_only=True))
 
-
+#Data description
 print(group_object.describe())
 
 
 
 
 # print(salary_frame)
+
+
+
