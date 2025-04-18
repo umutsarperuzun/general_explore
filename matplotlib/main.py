@@ -56,13 +56,40 @@ my_axes3.set_xlabel("X Data Large")
 my_axes3.set_ylabel("Y Data Large")
 my_axes3.set_title("Large Graph")
 
-my_axes2 = my_figure2.add_axes([0.2,0.4,0.4,0.4])
+my_axes2 = my_figure2.add_axes([0.2,0.4,0.4,0.5])
 my_axes2.plot(my_numpy1,my_numpy2,"g*")
 my_axes2.set_xlabel("X Data Small")
 my_axes2.set_ylabel("Y Data Small")
 my_axes2.set_title("Small Graph")
 plt.show()
 
- 
+
+# (my_fig,my_axe) = plt.subplots()
+# my_numpy3 = np.linspace(0,15,20)
+# my_numpy4 = my_numpy3 **2
+# my_axe.plot(my_numpy3,my_numpy4,color="#CD621D",alpha=1)#alpha using for opacity
+# my_axe.plot(my_numpy4,my_numpy3,color="#B81DCD",alpha=0.5)
+
+
+# (new_fig,new_axe) = plt.subplots()
+# new_axe.plot(my_numpy1,my_numpy1+3,color="#B81DCD",linewidth=1.0) #linewidth for set to width level
+# new_axe.plot(my_numpy1,my_numpy1+2,color="#CD621D",linewidth=1.0,linestyle="-.") #set to line types
+# new_axe.plot(my_numpy1,my_numpy1+4,color="black",linewidth=1.0,linestyle="-.",marker="+") # showing data with marks
+
+
+#Histogram
+new_numpy = np.random.randint(0,100,40)
+plt.hist(new_numpy)
+
+plt.show()
+
+
+#Save to the graphs
+my_figure2.savefig("myfig.png",dpi=200)
+
+
+
+
+
 
 
