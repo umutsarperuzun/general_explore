@@ -11,4 +11,18 @@ h3 {
 
 p {
     color: chocolate;
+    background-color: grey;
+}
+
+.firstdiv {
+    background-color: brown;
+}
+
+span {
+    color: black;
+    background-color: royalblue;
+}
+
+.seconddiv {
+    color:yellow;
 }
