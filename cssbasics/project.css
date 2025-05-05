@@ -1,7 +1,13 @@
-h2 {
+body {
+    background-color: blue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+ h2 {
 
     color: red;
     background-color:black ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
 }
 
 h3 {
@@ -11,6 +17,8 @@ h3 {
 
 p {
     color: chocolate;
+    text-align: center;
+    font-size:90% ;
     
 }
 
@@ -24,6 +32,7 @@ span {
 }
 
 .seconddiv {
+    font-family: Pacifico;
     color:yellow;
 }
 
@@ -37,4 +46,9 @@ span {
 
 .thirddiv {
     background-color: pink;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2em;
 }
