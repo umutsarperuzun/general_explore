@@ -52,3 +52,14 @@ h1 {
     text-align: center;
     font-size: 2em;
 }
+
+#umut {
+    border: 7px dashed red ;
+    padding: 10px;
+    margin: 100px;
+}
+
+#sarper {
+    border: 7px solid purple ;
+    margin: 30px;
+}
