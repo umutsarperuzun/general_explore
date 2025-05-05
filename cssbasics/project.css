@@ -11,7 +11,7 @@ h3 {
 
 p {
     color: chocolate;
-    background-color: grey;
+    
 }
 
 .firstdiv {
@@ -25,4 +25,16 @@ span {
 
 .seconddiv {
     color:yellow;
+}
+
+#myp {
+    color: black;
+}
+
+#secondp {
+    color: aliceblue;
+}
+
+.thirddiv {
+    background-color: pink;
 }
