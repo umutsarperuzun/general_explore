@@ -6,3 +6,11 @@
     width: 50%;
     height: 50%;
 }
+
+.mb-3 {
+    margin-left: 40px;
+}
+
+.btn-primary {
+    margin: 40px;
+}
