@@ -1,8 +1,5 @@
-body {
-    background-color: blue;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
- h2 {
+
+h2 {
 
     color: red;
     background-color:black ;
@@ -14,11 +11,8 @@ h3 {
     color: yellow;
     background-color: green;
 }
-
 p {
-    color: chocolate;
-    text-align: center;
-    font-size:90% ;
+    border: 10px solid red;
     
 }
 
